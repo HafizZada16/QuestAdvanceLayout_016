@@ -57,6 +57,13 @@ fun ProfileScreen() {
                 fontWeight = FontWeight.Bold
             )
             Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "@hafizzada16",
+                color = TextGray,
+                fontSize = 16.sp
+            )
+            Spacer(modifier = Modifier.height(12.dp))
         }
     }
 }
