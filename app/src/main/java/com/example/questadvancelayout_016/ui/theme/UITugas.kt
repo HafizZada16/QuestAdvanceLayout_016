@@ -1,6 +1,5 @@
 package com.example.questadvancelayout_016.ui.theme
 
-import android.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -48,7 +47,7 @@ fun ProfileScreen() {
             Spacer(modifier = Modifier.height(56.dp))
 
             Image(
-                painter = painterResource(R.drawable.pp),
+                painter = painterResource(id = R.drawable.pp),
                 contentDescription = "Foto Profil",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
