@@ -25,6 +25,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questadvancelayout_016.R
 
+val DarkBackground = Color(0xFF0D1117)
+val ButtonBlue = Color(0xFF3F51B5)
+val TextGray = Color(0xFFB0B0B0)
+val RedError = Color(0xFFD32F2F)
+
 @Composable
 fun ProfileScreen() {
     Surface(
