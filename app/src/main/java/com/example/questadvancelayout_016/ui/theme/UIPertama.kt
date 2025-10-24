@@ -43,7 +43,7 @@ fun AktivitasPertama(modifier: Modifier){
         )
 
         Text(
-            text = stringResource(id= R.string.univ),
+            stringResource(R.string.univ),
             fontSize = 10.sp
         )
 
