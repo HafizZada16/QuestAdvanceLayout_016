@@ -2,6 +2,7 @@ package com.example.questadvancelayout_016.ui.theme
 
 import android.text.Layout
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -58,7 +59,7 @@ fun AktivitasPertama(modifier: Modifier){
             )
         ){
             Row(
-                verticalAlignment = Alignment.CenterHorizontally,
+                verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ){
                 val gambar = painterResource(id = R.drawable.logo_umy)
@@ -87,6 +88,17 @@ fun AktivitasPertama(modifier: Modifier){
                     )
                 }
             }
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ){
+            Text(
+            stringResource(R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp)
+            )
         }
 
     }}
