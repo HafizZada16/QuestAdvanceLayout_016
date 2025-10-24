@@ -100,5 +100,5 @@ fun AktivitasPertama(modifier: Modifier){
                 .padding(bottom = 50.dp)
             )
         }
-
-    }}
+    }
+}
