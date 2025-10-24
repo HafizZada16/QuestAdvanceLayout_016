@@ -2,5 +2,7 @@
     <string name="app_name">QuestAdvanceLayout_016</string>
     <string name="nama">Hafiz Zada Maulana</string>
     <string name="alamat">Pacitan, Jawa Timur</string>
-
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammdiyah Yogayakarta</string>
+    <string name="copy">Copyright, 2025</string>
 </resources>
