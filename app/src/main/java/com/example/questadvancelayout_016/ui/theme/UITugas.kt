@@ -101,6 +101,12 @@ fun ProfileScreen() {
                 fontSize = 16.sp,
                 textAlign = TextAlign.Center
             )
+            Spacer(modifier = Modifier.height(24.dp))
+
+            LinkButton(
+                text = "Portofolio Saya",
+                icon = painterResource(R.drawable.ic_portofolio)
+            )
         }
     }
 }
