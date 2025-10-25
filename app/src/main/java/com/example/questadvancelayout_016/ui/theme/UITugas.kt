@@ -55,7 +55,9 @@ fun ProfileScreen(modifier: Modifier) {
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(rememberScrollState())
-                .padding(horizontal = 24.dp)
+                .padding(horizontal = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+
         ){
             Spacer(modifier = Modifier.height(56.dp))
 
