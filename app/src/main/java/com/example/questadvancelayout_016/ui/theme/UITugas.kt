@@ -94,14 +94,14 @@ fun ProfileScreen(modifier: Modifier) {
                 Icon(
                     painter = painterResource(id = R.drawable.ic_instagram),
                     contentDescription = "Instagram",
-                    tint = Color.White,
+                    tint = Color.Unspecified,
                     modifier = Modifier.size(24.dp)
                 )
                 Spacer(modifier = Modifier.width(20.dp))
                 Icon(
                     painter = painterResource(id = R.drawable.ic_youtube),
                     contentDescription = "Youtube",
-                    tint = Color.White,
+                    tint = Color.Unspecified,
                     modifier = Modifier.size(24.dp)
                 )
             }
