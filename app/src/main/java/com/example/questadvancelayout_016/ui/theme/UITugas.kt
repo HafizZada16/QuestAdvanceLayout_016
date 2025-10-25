@@ -129,7 +129,10 @@ fun ProfileScreen(modifier: Modifier) {
 
             Button(
                 onClick = {},
-                colors = ButtonDefaults.buttonColors(backgroundColor = Color.White),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color.White,
+                    contentColor = RedError
+                ),
                 shape = RoundedCornerShape(8.dp),
                 modifier = Modifier
                     .wrapContentWidth()
