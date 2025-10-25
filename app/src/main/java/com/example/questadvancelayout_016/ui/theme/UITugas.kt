@@ -150,6 +150,13 @@ fun ProfileScreen() {
                     )
                 }
             }
+            Spacer(modifier = Modifier.height(32.dp))
+
+            Text(
+                text = "© 2025 Hafiz16",
+                color = TextGray,
+                fontSize = 12.sp
+            )
         }
     }
 }
