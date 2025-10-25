@@ -85,6 +85,12 @@ fun ProfileScreen() {
                     modifier = Modifier.size(24.dp)
                 )
                 Spacer(modifier = Modifier.width(20.dp))
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_youtube),
+                    contentDescription = "Youtube",
+                    tint = Color.White,
+                    modifier = Modifier.size(24.dp)
+                )
             }
 
         }
