@@ -107,6 +107,14 @@ fun ProfileScreen() {
                 text = "Portofolio Saya",
                 icon = painterResource(R.drawable.ic_portofolio)
             )
+            LinkButton(
+                text = "Aplikasi Mobile",
+                icon = painterResource(R.drawable.ic_mobile)
+            )
+            LinkButton(
+                text = "Link Github",
+                icon = painterResource(R.drawable.ic_github)
+            )
         }
     }
 }
