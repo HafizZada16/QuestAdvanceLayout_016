@@ -141,6 +141,13 @@ fun ProfileScreen() {
                         tint = RedError,
                         modifier = Modifier.size(20.dp)
                     )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = "Keluar",
+                        color = RedError,
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Medium
+                    )
                 }
             }
         }
