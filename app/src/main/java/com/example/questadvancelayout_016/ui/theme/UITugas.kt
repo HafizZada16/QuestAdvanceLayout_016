@@ -25,6 +25,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questadvancelayout_016.R
@@ -92,7 +93,14 @@ fun ProfileScreen() {
                     modifier = Modifier.size(24.dp)
                 )
             }
+            Spacer(modifier = Modifier.height(16.dp))
 
+            Text(
+                text = "Saya adalah seorang Yucuber >_<",
+                color = Color.White,
+                fontSize = 16.sp,
+                textAlign = TextAlign.Center
+            )
         }
     }
 }
